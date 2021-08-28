@@ -1,0 +1,132 @@
+# -*- mode: gitignore; -*-
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+
+# Node stuff
+
+## Dependency directories
+node_modules/
+jspm_packages/
+
+## Bower dependency directory (https://bower.io/)
+bower_components/
+
+## Snowpack dependency direcotry (https://snowpack.dev/)
+web_modules/
+
+## Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+## Optional REPL history
+.node_repl_history
+
+## Optional npm cache directory
+.npm
+
+## Output of 'npm pack'
+*.tgz
+
+## Optional eslint cache
+.eslintcache
+
+## Typescript cache
+*.tsbuildinfo
+
+## Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+## Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+## Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+## Testing
+/coverage
+
+## Production
+/build
+
+## Environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+## Yarn integrity file
+.yarn-integrity
+
+## Yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+## TernJS port file
+.tern-port
+
+
+# MacOS cruft
+.DS_Store
+
+
+# Emacs stuff
+
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+## flymake-mode
+*_flymake.*
+
+## flycheck
+flycheck_*.el
+
+## directory local config
+.dir-locals.el
+
+## eshell files
+/eshell/history
+/eshell/lastdir
+
+## elpa packages
+/elpa/
+
+## server auth directory
+/server/
+
+## network security
+/network-security.data
+
+## projectile files
+.projectile
+
+## org mode
+.org-id-locations
+*_archive
+
+## reftex files
+*.rel
+
+## AUCTex auto folder
+/auto/
+
+## cask packages
+.cask/
+dist/
