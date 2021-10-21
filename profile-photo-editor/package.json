@@ -1,0 +1,27 @@
+{
+  "name": "profile-photo-editor",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "A web app allowing a user to choose and upload their profile photo.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/htoigo/vanilla-web.git"
+  },
+  "keywords": [
+    "photo",
+    "editor"
+  ],
+  "author": "Harry H. Toigo II",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/htoigo/vanilla-web/issues"
+  },
+  "homepage": "https://github.com/htoigo/vanilla-web#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
