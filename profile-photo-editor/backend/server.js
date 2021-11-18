@@ -10,6 +10,8 @@ app.get('/', (req, res) => {
   res.send('Express server, at your service.');
 });
 
+// Handle the preflight for a PUT request to create/update a user's profile
+// photo.
 app.options('/profilePhoto', (req, res) => {
   const origin = req.get('Origin');
   console.log('origin: ', origin);
